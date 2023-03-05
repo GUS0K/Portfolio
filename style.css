@@ -6,52 +6,7 @@ body {
 
 
 
-.dropbtn {
-  background-color: #4CAF50;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
 
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  position: absolute;
-  display: contents;
-  right: 45px;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-  background-color: #3e8e41;
-}
 
 p{
     font-size: 20px;
@@ -69,64 +24,81 @@ p{
 
 
 .span2{
-    font-size: 40px;
-    
+    font-size: 60px;
+   margin-left: 21px;
+   
 }
 
-.span1:hover{
-    border: 4px double black ;
-    border-radius: 10px;
-    padding-bottom: 10px;
-    padding-top: 20px;
-    padding-left: 5px;
+.span1{
+  border: 4px double black ;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  padding-left: 5px;
+  width: 90%;
+  box-shadow:  8px 8px 10px 2px black;
+  display: block;
+  position: relative;
+  
 }
 
-.span1:hover~.span2{
-  background-color: lightblue;
-    font-style: italic;
-	color: transparent;    
-	-webkit-background-clip: text;
-	background-clip: text;
-	background-image: linear-gradient(to right, red, fuchsia);
-}
+
+
+
+
+
 
 p{
     display: flex;
 }
 
 .name{
-   text-align: center;
-   color: transparent;    
-	-webkit-background-clip: text;
-	background-clip: text;
-	background-image: linear-gradient(to right bottom,  rgb(60, 255, 0)30%,  rgb(66, 80, 204) 70%) 
+   text-align: start;
+  
+  padding: 5px;
+  margin-left: 30px;
+	width: 240px;
+  transition: 0.1s;
 }
 
-.goose:hover{
+.name {
     
-    background-color: white;
-    width: 200px;
-    height: 200px;
-    -webkit-transform: rotate(1440deg);
-    transform: rotate(1440deg);
-    
-}
-
-.goose{
-    opacity: 1;
-    width: 100px;
-    height: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
     display: block;
-    transition: width 2s, height 2s, background-color 2s, transform 2s;
-    transition: width 2s, height 2s, background-color 2s, transform 2s;
+    width: 250px;
+    height: 70px;
+    
+    -webkit-transition:  border 0.3s, background-color 1s, -webkit-transform 1s;
+    transition:  border-bottom 0.3s, background-color 1s, transform 1s;
 }
 
-.gooooooooooose{
-    text-align: center;
-     
+.name:hover {
+    background-color: #FFCCCC;
+    
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+    -webkit-transform: translateX(46px);
+    transform: translateX(46px);
+    border-bottom: solid 5px blue;
 }
+
+.span3{
+    
+}
+
+.span4{
+    top: 20px;
+    position: relative;
+}
+
+.span5{
+    top: 40px;
+    position: relative;
+    margin-bottom: 300px;
+}
+
+
+
+   
+
 
 
