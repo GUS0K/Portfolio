@@ -81,17 +81,17 @@ p{
 }
 
 .span3{
-    top: 10px;
-    position: relative;
-}
-
-.span4{
     top: 30px;
     position: relative;
 }
 
-.span5{
+.span4{
     top: 60px;
+    position: relative;
+}
+
+.span5{
+    top: 90px;
     position: relative;
     margin-bottom: 300px;
 }
